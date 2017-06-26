@@ -7,10 +7,11 @@ namespace TextMessageBox
         /**********************************************
          * TextMessageBox
          * Developer: Jeff Peterson
-         * Version & Date: 0.2, 6/26/17
+         * Version & Date: 0.3, 6/26/17
          * Purpose: Display a nice text message box depending on the size of a message
          * 
-         * Version update: add methods to obtain input and string, use method to draw on console
+         * Version update 0.3: added check to ensure data entered by user in UserInput() method
+         * Version update 0.2: add methods to obtain input and string, use method to draw on console
          * ********************************************/
 
         // Global constants
@@ -56,9 +57,27 @@ namespace TextMessageBox
             /*
              * string UserInput()
              * 
-             * Pauses execution while user inputs a string.
+             * Pauses execution while user inputs a string, also checking that something was entered.
              */
-            return Console.ReadLine();
+            string result = "";
+            bool flag = true;
+
+            // Loop until we get some actual input.
+            while (flag)
+            {
+                result = Console.ReadLine();
+                if (result.Length < 1)
+                {
+                    Console.Write("Give me something!  Try again: ");
+                }
+                else
+                {
+                    flag = false;
+                }
+            }
+
+            // Out of the loop so return the string!
+            return result;
         }
 
         public static void DisplayBox(string name, string message, int type = ASTERISK, bool showTitle = true)
