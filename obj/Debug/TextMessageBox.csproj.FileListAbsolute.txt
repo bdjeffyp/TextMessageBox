@@ -4,3 +4,9 @@ c:\users\wwstudent\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1
 c:\users\wwstudent\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\TextMessageBox.csprojResolveAssemblyReference.cache
 c:\users\wwstudent\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 c:\users\wwstudent\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\wwstudent\Documents\Visual Studio 2017\Projects\TextMessageBox\TextMessageBox\bin\Debug\ConsoleApp1.exe.config
+C:\Users\wwstudent\Documents\Visual Studio 2017\Projects\TextMessageBox\TextMessageBox\bin\Debug\ConsoleApp1.exe
+C:\Users\wwstudent\Documents\Visual Studio 2017\Projects\TextMessageBox\TextMessageBox\bin\Debug\ConsoleApp1.pdb
+C:\Users\wwstudent\Documents\Visual Studio 2017\Projects\TextMessageBox\TextMessageBox\obj\Debug\TextMessageBox.csprojResolveAssemblyReference.cache
+C:\Users\wwstudent\Documents\Visual Studio 2017\Projects\TextMessageBox\TextMessageBox\obj\Debug\ConsoleApp1.exe
+C:\Users\wwstudent\Documents\Visual Studio 2017\Projects\TextMessageBox\TextMessageBox\obj\Debug\ConsoleApp1.pdb
